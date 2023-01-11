@@ -8,9 +8,12 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CardsComponent } from './components/cards/cards.component';
 import { PerfilComponent } from './components/perfil/perfil.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
-import {MatToolbarModule} from '@angular/material/toolbar';
-import {MatIconModule} from '@angular/material/icon';
-import {MatButtonModule} from '@angular/material/button';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatButtonModule } from '@angular/material/button';
+import { SkillsComponent } from './components/skills/skills.component';
+import { ConteudosComponent } from './components/conteudos/conteudos.component';
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 
 @NgModule({
@@ -18,7 +21,9 @@ import {MatButtonModule} from '@angular/material/button';
     AppComponent,
     CardsComponent,
     PerfilComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    SkillsComponent,
+    ConteudosComponent
   ],
   imports: [
     BrowserModule,
@@ -27,7 +32,8 @@ import {MatButtonModule} from '@angular/material/button';
     NgbModule,
     MatToolbarModule,
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    FontAwesomeModule
   ],
   providers: [],
   bootstrap: [AppComponent]

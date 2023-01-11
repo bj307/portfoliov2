@@ -1,0 +1,30 @@
+.progress {
+    margin-bottom: 25px;
+    height: 20px;
+}
+
+.pb1 {
+    background-color: #0080ff;
+}
+
+.pb2 {
+    background-color: #b567e9;
+}
+
+.pb3 {
+    background-color: #fa47b7;
+}
+
+.pb4 {
+    background-color: #ff3f98;
+}
+
+.pb5 {
+    background-color: #ff5457;
+}
+
+a {
+    font-weight: 300;
+    letter-spacing: .2rem;
+    font-size: 16px;
+}

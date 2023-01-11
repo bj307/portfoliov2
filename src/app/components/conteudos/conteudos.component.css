@@ -1,0 +1,54 @@
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col-6 {
+    width: 440px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+img {
+    max-width: 414px;
+    max-height: 285px;
+    object-fit: contain;
+}
+
+mat-icon {
+    height: 48px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+}
+
+.card:hover .overlay {
+    height: 100%;
+    cursor: pointer;
+}
+
+.text {
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+.card-body {
+    text-align: center;
+}
