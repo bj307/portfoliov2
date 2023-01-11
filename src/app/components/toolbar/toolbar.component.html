@@ -1,0 +1,24 @@
+<mat-toolbar>
+    <span>BK Portfólio</span>
+    <span class="example-spacer"></span>
+    <button mat-icon-button class="example-icon" aria-label="Example icon-button with menu icon" (click)="openTop(content)">
+        <mat-icon>menu</mat-icon>
+    </button>
+</mat-toolbar>
+
+<ng-template #content let-offcanvas>
+	<div class="offcanvas-header">
+		<button type="button" class="btn-close" aria-label="Close" (click)="offcanvas.dismiss('Cross click')"></button>
+	</div>
+	<div class="offcanvas-body">
+		<div class="button">
+            <a href="https://www.linkedin.com/in/kaio-resende/" class="fulldiv" target="_blank">LinkedIn    </a>
+        </div>    
+		<div class="button">
+            <a href="http://github.com/bj307" class="fulldiv" target="_blank">GitHub    </a>
+        </div>    
+		<div class="button">
+            <a href="https://dribbble.com/BJ307" class="fulldiv" target="_blank">Dribbble    </a>
+        </div>    
+	</div>
+</ng-template>

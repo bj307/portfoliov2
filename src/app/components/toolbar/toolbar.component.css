@@ -1,0 +1,47 @@
+.example-spacer {
+    flex: 1 1 auto;
+}
+
+mat-toolbar {
+    background-color: white;
+}
+
+.offcanvas-header {
+    margin-top: 15px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.offcanvas-body {
+    text-align: center;
+    padding: unset;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.button {
+    height: 49px;
+    background-color: white;
+}
+
+.button:hover {
+    background-color: #0080FF;
+}
+
+a.fulldiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+a.fulldiv:hover {
+    color: white;
+}
